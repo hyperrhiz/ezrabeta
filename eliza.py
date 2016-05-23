@@ -213,34 +213,17 @@ pairs = (
     "Thank you, that will be $150.  Have a good day!")),
 
   (r'(.*)',
-  (  "What relation can you have with a system of %1 if you are neither its slave nor its accomplice nor its witness?",
-    "You look for %1, but of what? What is the object of your reading?",
-    "Anyone hearing your intimate language I would have had to exclaim, %1!",
+  ( "Please tell me more.",
+    "Let's change focus a bit... Tell me about your family.",
+    "Can you elaborate on that?",
     "Why do you say that %1?",
-    "Where does %1 come from?",
-    "But what the fuck do you care about %1!",
-    "What is the unique and final word of %1?",
-    "if everything is not %1, what's the use of struggling?",
-    "Who will write the history of %1? In which societies, in which periods, have we wept?",
-    "As for this language of the others from which you are excluded, it seems to me that these others overload it absurdly: they %1.",
-    "Since when is it that men (and not women) no longer %1?",
-    "What does this %2 mean? Leave me alone? Take care of me?",
-    "As of a difficult child: But after all, what does %1 want?",
-    "Do you entrust yourself, I transmit yourself (to whom? to God, to Nature, to everything, except to %1).",
-    "Are you in love with %1?",
-    "is not %1 that preposterous state in which are to be found, the obscenity of stupidty, and the explosion of the Nietschean yes?",
-    "But how can you evaluate viability %1?",
-    "Could %1 be vulgar, whose elegance and originality I had so religiously hymned?",
-    "Then is the lover merely a choosier cruiser, who spends his life looking for %1?",
-    "Is there, among all the beings I have loved, a common characteristic, just one, however tenuous (%1)?",
-    "But what's the matter with %1?",
-    "What is it which fills you in this fashion? %1?",
-    "is it because you love that %1 doesn't work?",
-    "Why is %1 a Good Thing?",
-    "Why is it better to %1 than to burn?",
-    "If the other has given you this %1, what was that the sign of?",
-    "What is to be done?"))
-  )
+    "I see.",
+    "Very interesting.",
+    "%1.",
+    "I see.  And what does that tell you?",
+    "How does that make you feel?",
+    "How do you feel when you say that?"))
+)
 
 eliza_chatbot = Chat(pairs, reflections)
 
