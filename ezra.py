@@ -256,19 +256,19 @@ pairs = (
   )
 
 
-ezrabeta_chatbot = Chat(pairs, reflections)
+eliza_chatbot = Chat(pairs, reflections)
 
-def ezrabeta_chat():
+def eliza_chat():
     print("Therapist\n---------")
     print("Talk to the program by typing in plain English, using normal upper-")
     print('and lower-case letters and punctuation.  Enter "quit" when done.')
     print('='*72)
     print("Hello.  How are you feeling today?")
 
-    ezrabeta_chatbot.converse()
+    eliza_chatbot.converse()
 
 def demo():
-    ezrabeta_chat()
+    eliza_chat()
 
 if __name__ == "__main__":
     demo()
