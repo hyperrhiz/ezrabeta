@@ -335,7 +335,7 @@ gPats = [
     "interesting.",
     "How do you feel when you say that?",
     "Why is everyone whispering about me?",
-    "My stats are at http://wiki.themanaworld.org/index.php/Manamarket what are yours?",
+    "My stats are at what are yours?",
     "I'm a Friendly Bot",
     "My father died in a fire.",
     "Have you met my mother?",
