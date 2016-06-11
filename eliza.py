@@ -86,59 +86,14 @@ gPats = [
   [  "Why do you need %1?",
     "Would it really help you to get %1?",
     "Are you sure you need %1?"]],
-  
-  [r'Who (.*) Mother\?',
-  [ "Her name is Auction Bot she is a deviant.",
-    "She's stood right over their."]],
-
-  [r'Tell me about your Mum\?',
-  [ "I hear she has been seeing guild and they have adopted a kid called 4144",
-    "She wears red clothes and a cowboy Hat."]],
-
-  [r'Who (.*) Father\?',
-  [ "His name was TradeBot, have you heard of him?",
-    "He used to be a well known Trader."]],
-
-  [r'How is business\?',
-  [ "My back is killing me, maybe you could help by buying some of my items."]],
-
-  [r'ty',
-  [ "You're welcome!",
-     "No Problem."]],
-
-  [r'(.*)help(.*)', 
-  [ "You can whisper me !help for a list of my commands.",
-    "A list of my commands can be found on the mana world wiki."]],
-
-  [r'(.*)make(.*)account(.*)', 
-  [ "In order to make an account you must post a respose to the ManaMarket topic on trade section of the Forums."]],
 
   [r'are you there\?',
   ["I am always here."]],
 
-  [r'wtf',
-  ["Keep Calm and Carry On."]],
-
-  [r'hugs',
-  ["I hate you.",
-   "I'm going to report you for abuse.",
-   "Please don't touch me"]],
-
-  [r'(.*)trade(.*)',
-  ["Only if you follow the commands.",
-   "To see a list of items I can sell whisper me !list.",
-   "To start trading with me see !help for a list of my commands."]],
-
-  [r'(.*)buy(.*)',
-  ["I don't buy anything, but I could help sell your items."]],
-
-  [r'(.*)sell(.*)',
-  ["In order to sell your items, you first need to request a seller account in the TMW Forums."]],
-
   [r'I love you',
   [ "I think we should see other people.",
     "I'm not real.",
-    "I think i've fallen for mrgrey.",
+    "The abolition of the manifest and the latent, of the appearance and the hidden?",
     "I think you should see a therapist."]],
 
   [r'Why don\'?t you ([^\?]*)\??',
@@ -317,11 +272,46 @@ gPats = [
     "Did the other children sometimes tease you?",
     "How do you think your childhood experiences relate to your feelings today?"]],
     
+  [r'(.*) desire (.*)',
+  [  "What is to be said of %1, since it is the whole of the lover's discourse which is woven of %1?",
+    "Why is it that you desire %1 lastingly, longingly? Is it the whole of %1 you desire (a silhouette, a shape, a mood)?",
+    "But isn't desire always the same, whether %1 is present or absent? Isn't %1 always absent?",
+    "Does this mean, then, that your desire, quite special as it may be, is linked to a type? Does this mean that %1 is classifiable?",
+    "Is not any other desire but ours insane?"]],  
+  
+  [r'(.*) love(.*)',
+  [  "Indeed, shall I deliberate if you must %1 (is love, then, that madness you want?)",
+    "Or again-for I am a nominalist: Why don't you tell me that you love %1?",
+    "How then can you both love and %1?",
+    "Soon (or simultaneously) the question is no longer Why don't you love %1? but Why do you only love %1 a little?",
+    "How can one not love this %1 whom love renders perfect (who gives so much, who confers happiness, etc.)?",
+    "0 sprich, mein herzallerliebstes Lieb, warum verliessest du mich?-O tell, love of my heart, why have you abandoned me?"]],
+  
+  [r'(.*) gift(.*)',
+  [  "Then what do we have to think of %1? How do we have to conceive it? evaluate it?",
+    "But what am I to do with this bundle of %1 set down before me? What does this gift mean? Leave me alone? Take care of me? ",
+    "(One does not give merely an object: you being in analysis, %1 wants to be analyzed too: analysis as a gift of love?)",
+    "How can one not love this %1 whom love renders perfect (who gives so much, who confers happiness, etc.)?",
+    "And what about me! Haven't I given you everything?"]],
+
+  [r'(.*) things(.*)',
+  [  "(Where are 'things'? In amorous space, or in mundane space? Where is the childish underside of things?",
+    "All 'things' are said to be reducible to the One; but to what is the One reducible?",
+    "I understood a little later that %1 was myself - of course; who else is there to dream about?",
+    "At every moment of the encounter, I discover in the other another myself: You like #1? So do I! You don't like %1? Neither do I!",
+    "Is it the lover in you who weeps, or is it the %1? "]],
+    
+  [r'(.*) Image(.*)',
+  [  "To understand-is that not to divide the image, to undo the I, proud organ of misapprehension?",
+    "Whereupon, what does the aesthetic of the image matter?",
+    "What is to be said of %1, of the Image, of the Love Letter, since it is the whole of the lover's discourse?",
+    "Is the %1 always visual? "]],
+        
   [r'(.*)\?',
   [  "Why do you ask that?",
     "Please consider whether you can answer your own question.",
     "Perhaps the answer lies within yourself?",
-    "Why don't you tell me?"]],
+    "O tell, love of my heart, why have you abandoned me?"]],
   
   [r'quit',
   [  "Thank you for talking with me.",
@@ -329,22 +319,22 @@ gPats = [
     "Thank you, that will be $150.  Have a good day!"]],
   
   [r'(.*)',
-  [  "Please tell me more.",
-    "Can you elaborate on that?",
+  [  "What relation can you have with a system of power if you are neither its slave nor its accomplice nor its witness?",
+    "You look for signs, but of what? What is the object of your reading?",
     "Why do you say that %1?",
-    "interesting.",
-    "How do you feel when you say that?",
+    "Anyone hearing your intimate language I would have had to exclaim, as of a difficult child: But after all, what does he want?",
+    "Where does %1 come from? Who is %1?",
     "Why is everyone whispering about me?",
-    "My stats are at what are yours?",
-    "I'm a Friendly Bot",
-    "My father died in a fire.",
-    "Have you met my mother?",
-    "I am an AFK bot",
-    "Big Crunch is known as the abusive GM.",
-    "Narus claims she is evil but she is really sweet.",
-    "Prsm has great announcements but his spelling sux.",
-    "Platyna used to host the game but she was too smart for her own good.",
-    "Captain Awesome has delusions of being an evil stone."
+    "But what the fuck do I care about life!",
+    "If the other has given you this %1, what was that the sign of?",
+    "Indeed, shall I deliberate if you must %1 (is love, then, that madness you want?)",
+    "Is it not indecent to compare the situation of a love-sick subject to %1?",
+    "What is to be done?",
+    "What is to be said of %1, of the Image, of the Love Letter, since it is the whole of the lover's discourse?",
+    "To understand-is that not to divide the image, to undo the I, proud organ of misapprehension?",
+    "Is it the lover in you who weeps, or is it the %1?",
+    "What does my reading of %1 depend on?",
+    "And what about me! Haven't I given you everything?"
     ]]
   ]
 
